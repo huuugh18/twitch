@@ -45,7 +45,7 @@ for (let i = 0; i < memberArr.length; i++ ) {
                 .prop('href', channelURL)
                 .attr('id', member)
                 .prop('target','_blank')
-                .html('<div class=\'c1\'><h3>'+ item.name + '</h3><h4><i>' + info.descrip + '</i></h4></div><div class=\'c2\'>' + info.logo +'</div>')
+                .html('<div class=\'c1\'><h3>'+ item.name + '</h3>'+ info.logo + '<h4><i>' + info.descrip + '</i></h4></div>')
             )      
 
         }        
@@ -60,7 +60,7 @@ function getInfo(item){
             if (online) return { 
                 groupClass: 'list-group-item list-group-item-success online',
                 descrip: item.data.stream.channel.game,
-                logo: '<img class="logoThumb" src=' + item.data.stream.channel.logo + '>'
+                logo: '<img class="logoThumb img-rounded" src=' + item.data.stream.channel.logo + '>'
             }
             return {
                 groupClass: 'list-group-item list-group-item-danger',
