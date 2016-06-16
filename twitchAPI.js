@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 let memberURL = []
-let memberArr = ['freecodecamp', 'lassiz', 'test_channel', '2GD', 'Impaktpt', 'RobotCaleb', 'noobs2ninjas', 'DotaMajor', 'brineMaster12', 'brunofin']
+let memberArr = ['freecodecamp', 'lassiz', 'test_channel', '2GD', 'Impaktpt', 'RobotCaleb', 'noobs2ninjas', 'DotaMajor', 'brineMaster12', 'mmboko','timthetatman', 'Forcestrategygaming']
 getURL(memberArr)
 
 let dataArr = []

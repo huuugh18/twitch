@@ -1,3 +1,17 @@
+body {
+    background-color: teal;
+    padding-top: 10px;
+}
+h1 {
+    font-size: 100px;
+    font-family: twitchFontLg, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    font-family: twitchFontMed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .jumbotron {
     width: 50%;
     height: auto;
@@ -6,19 +20,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
 
-
 }
-body {
-    background-color: teal;
-    padding-top: 10px;
-}
-
-.list-group-item {
-    font-family: Impact, 'Charcol', sans-serif;
-    /*display: inline-block */
-    
-
-}   
 .logoThumb {
     width: 70px;
     height: 70px;
@@ -29,6 +31,15 @@ body {
 }
 
 .c1 {
-    display: inline-block
+    display: inline-block;
+}
+
+@font-face {
+    font-family: twitchFontMed;
+    src: url(DIMIS___Med.TTF);
+}
+@font-face {
+    font-family: twitchFontLg;
+    src: url(DIMIS___Lg.TTF);
 }
 
